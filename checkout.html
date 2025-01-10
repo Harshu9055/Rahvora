@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RahVora-CheckOut</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+<body class = 'navbody'>
+<div id ='checkout-navbar'>
+  <div id="checkout-logo">
+    <a href="index.html">RahVora</a>
+  </div>
+  <h1 class="checkout-info" style="font-weight:400; font-size:1.84rem">Check-Out (<span style="color: rgb(6, 109, 165);">4 items</span>)</h1>
+  <div class="rsection">
+    <i class="fa-solid fa-lock"></i>
+  </div>
+  </div>
+  
+<h2 style="text-align: center;">Review your order</h2>
+<div class="checkoutpage">
+
+  <div class='cart-items'>
+    <div class="item-detail">
+    </div>
+  </div>
+
+  <div class="paycard">
+    <div class="order"><h1 style ="text-align: center; margin:10px;">OrderSummary</h1></div>
+
+    <div class="pay" id ="items">
+      Items:
+    </div>
+    <div class="pay" id = "s&d">
+      Shipping & Delivery:
+    </div>
+    <div class="pay" id="tax">
+      Total before tax:
+    </div>
+    <div class="pay" id="etax">
+      Estimated tax(10%):
+    </div>
+  </div>
+
+</div>
+
+<script type = "module" src="scripts/rahvora.js"></script>
+<script type = "module" src="scripts/rahvora-cart.js"></script>
+
+</body>
+</html>
